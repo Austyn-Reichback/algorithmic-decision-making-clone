@@ -129,7 +129,6 @@ def select_features_to_use():
 
     # The features below are intentionally commented out, so they are not currently used in training the model
 
-    """
     # Input features based on age (bucketed into 3 categories)
     features_to_use.append(constants.AGE_LESS_THAN_25)
     features_to_use.append(constants.AGE_25_TO_45)
@@ -146,7 +145,6 @@ def select_features_to_use():
     features_to_use.append(constants.RACE_CAUCASIAN)
     features_to_use.append(constants.RACE_HISPANIC)
     features_to_use.append(constants.RACE_AFRICAN_AMERICAN)
-    """
 
     return features_to_use
 
