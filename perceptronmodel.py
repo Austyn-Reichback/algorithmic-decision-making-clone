@@ -31,13 +31,13 @@ class PerceptronModel:
     EPOCHS = 2000
 
     # Initial learning rate
-    INITIAL_LEARNING_RATE = 10
+    INITIAL_LEARNING_RATE = 100
 
     # Factor by which we multiply the learning rate after training for EPOCHS_PER_REDUCTION epochs
-    LEARNING_RATE_REDUCTION = 0.95
+    LEARNING_RATE_REDUCTION = 0.99
 
     # Number of epochs of training in between a reduction in learning rate
-    EPOCHS_PER_REDUCTION = 100
+    EPOCHS_PER_REDUCTION = 1000
 
     def __init__(self, data, features_to_use=None):
         """
